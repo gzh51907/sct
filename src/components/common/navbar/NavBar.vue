@@ -15,7 +15,7 @@
 
 <script>
 export default {
-    name: "NavBar", 
+  name: "NavBar"
 };
 </script>
 
@@ -25,14 +25,13 @@ export default {
   height: 44px;
   line-height: 44px;
   text-align: center;
-  /* border-bottom: 1px solid #f6f6ff; */
-  /* box-shadow: 0px 1px 1px rgba(100, 100, 100, 0.1); */
-  /* 利用flex进行布局 */
   display: flex;
-  position: fixed;
+  position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   right: 0;
+  z-index: 6;
+  font-size: 14px;
 }
 .left,
 .right {
@@ -40,5 +39,5 @@ export default {
 }
 .center {
   flex: 1;
-} 
+}
 </style>

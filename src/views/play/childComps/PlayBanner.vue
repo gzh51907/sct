@@ -10,7 +10,7 @@
 <script>
 
 export default {
-    name:'HomeSwiper',
+    name:'PlayBanner',
     props:{
         banner:{
             type:Array,

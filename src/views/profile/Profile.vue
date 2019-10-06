@@ -1,10 +1,11 @@
 <template>
     <div id="profile">
-        <h1>profile</h1>
+        <ProfileTop/>
     </div>
 </template>
     
 <script>
+import ProfileTop from './childComps/ProfileTop'
 export default {
   name:'Profile',
   data() {
@@ -13,7 +14,7 @@ export default {
     }
   },
   components: {
-
+    ProfileTop
   }
 }
 </script>

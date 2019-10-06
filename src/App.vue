@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
-    <MainTabBar/>
+    <MainTabBar v-if="$route.name!=='card'"/>
   </div>
 </template>
 
